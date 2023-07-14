@@ -9,4 +9,4 @@ def print_star_name(str):
         print('')        
 
 
-print(print_star_name(str(input('Enter your word: '))))    
+print(print_star_name(str(input('Enter your word: ')))) 
