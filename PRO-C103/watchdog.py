@@ -6,7 +6,7 @@ import shutil
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-from_dir = "<Set path for tracking file system events>"
+from_dir = "/Users/caleb/watchDogFile"
 
 class FileEventHandler(FileSystemEventHandler):
     def on_created(self, event):
